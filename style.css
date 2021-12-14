@@ -1,0 +1,43 @@
+*{
+    /* border: none; */
+    padding: 0;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.nav{
+    border: none;
+    width: 100vw;
+   background-color: #191919;
+  
+}
+li{
+    justify-content: center;
+    padding: 10px;
+    margin: 10px;
+    
+}
+li:hover{
+    background-color: #082032;
+    transition-delay: 1ms;
+}
+ul{
+    height: 9vh;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: medium;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+#home{
+    background-size: cover;
+    width: 100vw;
+    height: auto;
+}
